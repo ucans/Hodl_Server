@@ -1,19 +1,19 @@
-# ? Hodl_Server - ¾à¹° °ü¸® ¹× °Ç°­ ±â·Ï ¹é¿£µå ¼­¹ö
+# ðŸ’Š Hodl_Server - ì•½ë¬¼ ê´€ë¦¬ ë° ê±´ê°• ê¸°ë¡ ë°±ì—”ë“œ ì„œë²„
 
-## ? ÇÁ·ÎÁ§Æ® °³¿ä
+## ðŸ“‹ í”„ë¡œì íŠ¸ ê°œìš”
 
-**Hodl_Server**´Â »ç¿ëÀÚÀÇ ¾à¹° º¹¿ë °ü¸®¿Í °Ç°­ ±â·ÏÀ» À§ÇÑ ¸ð¹ÙÀÏ ¾ÛÀÇ ¹é¿£µå ¼­¹öÀÔ´Ï´Ù. »ç¿ëÀÚ°¡ ¾à¹°À» µî·ÏÇÏ°í º¹¿ë ÀÏÁ¤À» °ü¸®ÇÏ¸ç, ¼ö¸é, ¿îµ¿, ÇÞºû ³ëÃâ, Áõ»ó µîÀÇ °Ç°­ µ¥ÀÌÅÍ¸¦ ±â·ÏÇÒ ¼ö ÀÖ´Â RESTful API¸¦ Á¦°øÇÕ´Ï´Ù.
+**Hodl_Server**ëŠ” ì‚¬ìš©ìžì˜ ì•½ë¬¼ ë³µìš© ê´€ë¦¬ì™€ ê±´ê°• ê¸°ë¡ì„ ìœ„í•œ ëª¨ë°”ì¼ ì•±ì˜ ë°±ì—”ë“œ ì„œë²„ìž…ë‹ˆë‹¤. ì‚¬ìš©ìžê°€ ì•½ë¬¼ì„ ë“±ë¡í•˜ê³  ë³µìš© ì¼ì •ì„ ê´€ë¦¬í•˜ë©°, ìˆ˜ë©´, ìš´ë™, í–‡ë¹› ë…¸ì¶œ, ì¦ìƒ ë“±ì˜ ê±´ê°• ë°ì´í„°ë¥¼ ê¸°ë¡í•  ìˆ˜ ìžˆëŠ” RESTful APIë¥¼ ì œê³µí•©ë‹ˆë‹¤.
 
-### ? ÁÖ¿ä ±â´É
-- **¾à¹° °ü¸®**: ¾à¹° µî·Ï, º¹¿ë ÀÏÁ¤ °ü¸®, º¹¿ë ±â·Ï
-- **°Ç°­ ±â·Ï**: ¼ö¸é, ¿îµ¿, ÇÞºû ³ëÃâ, Áõ»ó ±â·Ï
-- **¾Ë¸² ½Ã½ºÅÛ**: Firebase Cloud MessagingÀ» ÅëÇÑ Çª½Ã ¾Ë¸²
-- **»ç¿ëÀÚ °ü¸®**: È¸¿ø°¡ÀÔ, ·Î±×ÀÎ, ÇÁ·ÎÇÊ °ü¸®
-- **Ã¤ÆÃ ±â¹Ý UX**: ´Ü°èº° Ã¤ÆÃ ÀÎÅÍÆäÀÌ½º¸¦ ÅëÇÑ Á÷°üÀûÀÎ ¾à¹° µî·Ï
+### ðŸŽ¯ ì£¼ìš” ê¸°ëŠ¥
+- **ì•½ë¬¼ ê´€ë¦¬**: ì•½ë¬¼ ë“±ë¡, ë³µìš© ì¼ì • ê´€ë¦¬, ë³µìš© ê¸°ë¡
+- **ê±´ê°• ê¸°ë¡**: ìˆ˜ë©´, ìš´ë™, í–‡ë¹› ë…¸ì¶œ, ì¦ìƒ ê¸°ë¡
+- **ì•Œë¦¼ ì‹œìŠ¤í…œ**: Firebase Cloud Messagingì„ í†µí•œ í‘¸ì‹œ ì•Œë¦¼
+- **ì‚¬ìš©ìž ê´€ë¦¬**: íšŒì›ê°€ìž…, ë¡œê·¸ì¸, í”„ë¡œí•„ ê´€ë¦¬
+- **ì±„íŒ… ê¸°ë°˜ UX**: ë‹¨ê³„ë³„ ì±„íŒ… ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ í†µí•œ ì§ê´€ì ì¸ ì•½ë¬¼ ë“±ë¡
 
-## ?? ½Ã½ºÅÛ ¾ÆÅ°ÅØÃ³
+## ðŸ—ï¸ ì‹œìŠ¤í…œ ì•„í‚¤í…ì²˜
 
-### ÀüÃ¼ ½Ã½ºÅÛ ±¸Á¶
+### ì „ì²´ ì‹œìŠ¤í…œ êµ¬ì¡°
 
 ```mermaid
 graph TB
@@ -61,7 +61,7 @@ graph TB
     style I fill:#fafafa
 ```
 
-### ? ¿äÃ» Ã³¸® Èå¸§
+### ðŸ”„ ìš”ì²­ ì²˜ë¦¬ íë¦„
 
 ```mermaid
 sequenceDiagram
@@ -82,20 +82,20 @@ sequenceDiagram
     Nginx->>Client: HTTPS Response
 ```
 
-### ? ½Ã½ºÅÛ ¾ÆÅ°ÅØÃ³ »ó¼¼ ¼³¸í
+### ðŸ“Š ì‹œìŠ¤í…œ ì•„í‚¤í…ì²˜ ìƒì„¸ ì„¤ëª…
 
-| ·¹ÀÌ¾î | ±¸¼º ¿ä¼Ò | ¿ªÇÒ | ±â¼ú ½ºÅÃ |
+| ë ˆì´ì–´ | êµ¬ì„± ìš”ì†Œ | ì—­í•  | ê¸°ìˆ  ìŠ¤íƒ |
 |--------|-----------|------|-----------|
-| **Client Layer** | Mobile App | »ç¿ëÀÚ ÀÎÅÍÆäÀÌ½º | React Native / Flutter |
-| **Web Server Layer** | Nginx | ¸®¹ö½º ÇÁ·Ï½Ã, ·Îµå ¹ë·±¼­ | Nginx |
-| **Application Layer** | Spring Boot | ºñÁî´Ï½º ·ÎÁ÷ Ã³¸® | Spring Boot 2.4.2 |
-| **Application Layer** | JWT Authentication | ÀÎÁõ ¹× ±ÇÇÑ °ü¸® | JWT |
-| **Application Layer** | Firebase Cloud Messaging | Çª½Ã ¾Ë¸² ¼­ºñ½º | Firebase FCM |
-| **Data Layer** | MySQL Database | µ¥ÀÌÅÍ ÀúÀå ¹× °ü¸® | MySQL 8.0 |
-| **Infrastructure** | AWS EC2 | ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ¼­¹ö | Amazon EC2 (Linux) |
-| **Infrastructure** | AWS RDS | µ¥ÀÌÅÍº£ÀÌ½º ¼­¹ö | Amazon RDS (MySQL) |
+| **Client Layer** | Mobile App | ì‚¬ìš©ìž ì¸í„°íŽ˜ì´ìŠ¤ | React Native / Flutter |
+| **Web Server Layer** | Nginx | ë¦¬ë²„ìŠ¤ í”„ë¡ì‹œ, ë¡œë“œ ë°¸ëŸ°ì„œ | Nginx |
+| **Application Layer** | Spring Boot | ë¹„ì¦ˆë‹ˆìŠ¤ ë¡œì§ ì²˜ë¦¬ | Spring Boot 2.4.2 |
+| **Application Layer** | JWT Authentication | ì¸ì¦ ë° ê¶Œí•œ ê´€ë¦¬ | JWT |
+| **Application Layer** | Firebase Cloud Messaging | í‘¸ì‹œ ì•Œë¦¼ ì„œë¹„ìŠ¤ | Firebase FCM |
+| **Data Layer** | MySQL Database | ë°ì´í„° ì €ìž¥ ë° ê´€ë¦¬ | MySQL 8.0 |
+| **Infrastructure** | AWS EC2 | ì• í”Œë¦¬ì¼€ì´ì…˜ ì„œë²„ | Amazon EC2 (Linux) |
+| **Infrastructure** | AWS RDS | ë°ì´í„°ë² ì´ìŠ¤ ì„œë²„ | Amazon RDS (MySQL) |
 
-## ?? ±â¼ú ½ºÅÃ
+## ðŸ› ï¸ ê¸°ìˆ  ìŠ¤íƒ
 
 ### Backend
 - **Framework**: Spring Boot 2.4.2
@@ -106,7 +106,7 @@ sequenceDiagram
 - **Authentication**: JWT (JSON Web Token)
 - **Push Notification**: Firebase Cloud Messaging
 - **Email Service**: JavaMail API
-- **Security**: Spring Security (±âº» ¼³Á¤)
+- **Security**: Spring Security (ê¸°ë³¸ ì„¤ì •)
 
 ### Infrastructure
 - **Cloud Platform**: AWS
@@ -121,271 +121,271 @@ sequenceDiagram
 - **API Testing**: Postman
 - **Database Management**: MySQL Workbench
 
-## ? ÇÁ·ÎÁ§Æ® ±¸Á¶
+## ðŸ“ í”„ë¡œì íŠ¸ êµ¬ì¡°
 
 ```
 Hodl_Server/
-¦§¦¡¦¡ src/
-¦¢   ¦§¦¡¦¡ main/
-¦¢   ¦¢   ¦§¦¡¦¡ java/shop/hodl/kkonggi/
-¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ config/                 # ¼³Á¤ Å¬·¡½º
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ BaseException.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ BaseResponse.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ BaseResponseStatus.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ Constant.java
-¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ src/
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ user/               # »ç¿ëÀÚ °ü¸®
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ UserController.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ UserService.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ UserProvider.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ UserDao.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ model/
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ medicine/           # ¾à¹° °ü¸®
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ MedicineController.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ MedicineService.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ MedicineProvider.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ MedicineDao.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ model/
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ record/             # °Ç°­ ±â·Ï
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ medicine/       # ¾à¹° º¹¿ë ±â·Ï
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ sleep/          # ¼ö¸é ±â·Ï
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ exercise/       # ¿îµ¿ ±â·Ï
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ sun/            # ÇÞºû ±â·Ï
-¦¢   ¦¢   ¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ symptom/        # Áõ»ó ±â·Ï
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ notification/       # ¾Ë¸² °ü¸®
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ push/               # Çª½Ã ¾Ë¸²
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ email/              # ÀÌ¸ÞÀÏ ¼­ºñ½º
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ firebase/           # Firebase ¿¬µ¿
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ data/               # °øÁö»çÇ×, ¹öÀü °ü¸®
-¦¢   ¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ store/              # ½ºÅä¾î Á¤º¸
-¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ utils/                  # À¯Æ¿¸®Æ¼ Å¬·¡½º
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ JwtService.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦§¦¡¦¡ AES128.java
-¦¢   ¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ ValidationRegex.java
-¦¢   ¦¢   ¦¢   ¦¦¦¡¦¡ WebSecurityConfig.java  # º¸¾È ¼³Á¤
-¦¢   ¦¢   ¦¦¦¡¦¡ resources/
-¦¢   ¦¢       ¦§¦¡¦¡ templates/
-¦¢   ¦¢       ¦¢   ¦¦¦¡¦¡ mail.html           # ÀÌ¸ÞÀÏ ÅÛÇÃ¸´
-¦¢   ¦¢       ¦¦¦¡¦¡ logback-spring.xml      # ·Î±× ¼³Á¤
-¦¢   ¦¦¦¡¦¡ test/                           # Å×½ºÆ® ÄÚµå
-¦§¦¡¦¡ build.gradle                        # Gradle ¼³Á¤
-¦§¦¡¦¡ gradlew
-¦¦¦¡¦¡ README.md
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ main/
+â”‚   â”‚   â”œâ”€â”€ java/shop/hodl/kkonggi/
+â”‚   â”‚   â”‚   â”œâ”€â”€ config/                 # ì„¤ì • í´ëž˜ìŠ¤
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ BaseException.java
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ BaseResponse.java
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ BaseResponseStatus.java
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ Constant.java
+â”‚   â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ user/               # ì‚¬ìš©ìž ê´€ë¦¬
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ UserController.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ UserService.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ UserProvider.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ UserDao.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â””â”€â”€ model/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ medicine/           # ì•½ë¬¼ ê´€ë¦¬
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ MedicineController.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ MedicineService.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ MedicineProvider.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ MedicineDao.java
+â”‚   â”‚   â”‚   â”‚   â”‚   â””â”€â”€ model/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ record/             # ê±´ê°• ê¸°ë¡
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ medicine/       # ì•½ë¬¼ ë³µìš© ê¸°ë¡
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ sleep/          # ìˆ˜ë©´ ê¸°ë¡
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ exercise/       # ìš´ë™ ê¸°ë¡
+â”‚   â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ sun/            # í–‡ë¹› ê¸°ë¡
+â”‚   â”‚   â”‚   â”‚   â”‚   â””â”€â”€ symptom/        # ì¦ìƒ ê¸°ë¡
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ notification/       # ì•Œë¦¼ ê´€ë¦¬
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ push/               # í‘¸ì‹œ ì•Œë¦¼
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ email/              # ì´ë©”ì¼ ì„œë¹„ìŠ¤
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ firebase/           # Firebase ì—°ë™
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ data/               # ê³µì§€ì‚¬í•­, ë²„ì „ ê´€ë¦¬
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ store/              # ìŠ¤í† ì–´ ì •ë³´
+â”‚   â”‚   â”‚   â”œâ”€â”€ utils/                  # ìœ í‹¸ë¦¬í‹° í´ëž˜ìŠ¤
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ JwtService.java
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ AES128.java
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ ValidationRegex.java
+â”‚   â”‚   â”‚   â””â”€â”€ WebSecurityConfig.java  # ë³´ì•ˆ ì„¤ì •
+â”‚   â”‚   â””â”€â”€ resources/
+â”‚   â”‚       â”œâ”€â”€ templates/
+â”‚   â”‚       â”‚   â””â”€â”€ mail.html           # ì´ë©”ì¼ í…œí”Œë¦¿
+â”‚   â”‚       â””â”€â”€ logback-spring.xml      # ë¡œê·¸ ì„¤ì •
+â”‚   â””â”€â”€ test/                           # í…ŒìŠ¤íŠ¸ ì½”ë“œ
+â”œâ”€â”€ build.gradle                        # Gradle ì„¤ì •
+â”œâ”€â”€ gradlew
+â””â”€â”€ README.md
 ```
 
-## ? ÁÖ¿ä ±â´É »ó¼¼ ¼³¸í
+## ðŸ”§ ì£¼ìš” ê¸°ëŠ¥ ìƒì„¸ ì„¤ëª…
 
-### 1. »ç¿ëÀÚ °ü¸® (User Management)
+### 1. ì‚¬ìš©ìž ê´€ë¦¬ (User Management)
 
-#### È¸¿ø°¡ÀÔ ¹× ·Î±×ÀÎ
-- **ÀÌ¸ÞÀÏ ÀÎÁõ**: È¸¿ø°¡ÀÔ ½Ã ÀÌ¸ÞÀÏ ÀÎÁõ ÄÚµå ¹ß¼Û
-- **JWT ÅäÅ«**: ·Î±×ÀÎ ¼º°ø ½Ã 1³â À¯È¿ÇÑ JWT ÅäÅ« ¹ß±Þ
-- **ºñ¹Ð¹øÈ£ ¾ÏÈ£È­**: AES128 ¾Ë°í¸®ÁòÀ¸·Î ºñ¹Ð¹øÈ£ ¾ÏÈ£È­
+#### íšŒì›ê°€ìž… ë° ë¡œê·¸ì¸
+- **ì´ë©”ì¼ ì¸ì¦**: íšŒì›ê°€ìž… ì‹œ ì´ë©”ì¼ ì¸ì¦ ì½”ë“œ ë°œì†¡
+- **JWT í† í°**: ë¡œê·¸ì¸ ì„±ê³µ ì‹œ 1ë…„ ìœ íš¨í•œ JWT í† í° ë°œê¸‰
+- **ë¹„ë°€ë²ˆí˜¸ ì•”í˜¸í™”**: AES128 ì•Œê³ ë¦¬ì¦˜ìœ¼ë¡œ ë¹„ë°€ë²ˆí˜¸ ì•”í˜¸í™”
 
-#### ÇÁ·ÎÇÊ °ü¸®
-- ´Ð³×ÀÓ, »ý³â¿ùÀÏ, ¼ºº° Á¤º¸ °ü¸®
-- Ã¤ÆÃ ±â¹Ý ´Ð³×ÀÓ ¼³Á¤ ÇÁ·Î¼¼½º
+#### í”„ë¡œí•„ ê´€ë¦¬
+- ë‹‰ë„¤ìž„, ìƒë…„ì›”ì¼, ì„±ë³„ ì •ë³´ ê´€ë¦¬
+- ì±„íŒ… ê¸°ë°˜ ë‹‰ë„¤ìž„ ì„¤ì • í”„ë¡œì„¸ìŠ¤
 
-**API ¿£µåÆ÷ÀÎÆ®:**
+**API ì—”ë“œí¬ì¸íŠ¸:**
 ```
-POST /app/v1/users          # È¸¿ø°¡ÀÔ
-POST /app/v1/users/logIn    # ·Î±×ÀÎ
-GET  /app/v1/users/{userIdx} # ÇÁ·ÎÇÊ Á¶È¸
-PATCH /app/v1/users/{userIdx} # ÇÁ·ÎÇÊ ¼öÁ¤
-```
-
-### 2. ¾à¹° °ü¸® (Medicine Management)
-
-#### ¾à¹° µî·Ï ÇÁ·Î¼¼½º
-Ã¤ÆÃ ±â¹ÝÀÇ ´Ü°èº° ¾à¹° µî·Ï ½Ã½ºÅÛ:
-1. **¾à¹°¸í ÀÔ·Â** ¡æ 2. **º¹¿ë ÁÖ±â ¼³Á¤** ¡æ 3. **½ÃÀÛÀÏ ¼³Á¤** ¡æ 4. **Á¾·áÀÏ ¼³Á¤** ¡æ 5. **º¹¿ë ½Ã°£ ¼³Á¤**
-
-#### º¹¿ë ÀÏÁ¤ °ü¸®
-- ¿äÀÏº° º¹¿ë ¼³Á¤ (¿ù~ÀÏ)
-- ½Ã°£´ëº° º¹¿ë ¼³Á¤ (»õº®, ¾ÆÄ§, Á¡½É, Àú³á, ÀÚ±âÀü)
-- º¹¿ë·® ¹× ¸Þ¸ð °ü¸®
-
-**API ¿£µåÆ÷ÀÎÆ®:**
-```
-GET  /app/v1/users/medicine/input    # ¾à¹° µî·Ï ½ÃÀÛ
-GET  /app/v1/users/medicine/name     # ¾à¹°¸í ÀÔ·Â
-GET  /app/v1/users/medicine/cycle    # º¹¿ë ÁÖ±â ¼³Á¤
-GET  /app/v1/users/medicine/start    # ½ÃÀÛÀÏ ¼³Á¤
-GET  /app/v1/users/medicine/end      # Á¾·áÀÏ ¼³Á¤
-GET  /app/v1/users/medicine/time     # º¹¿ë ½Ã°£ ¼³Á¤
-POST /app/v1/users/medicine          # ¾à¹° µî·Ï
-GET  /app/v1/users/medicine          # ¾à¹° ¸ñ·Ï Á¶È¸
-PUT  /app/v1/users/medicine/{medicineIdx} # ¾à¹° ¼öÁ¤
-DELETE /app/v1/users/medicine/{medicineIdx} # ¾à¹° »èÁ¦
+POST /app/v1/users          # íšŒì›ê°€ìž…
+POST /app/v1/users/logIn    # ë¡œê·¸ì¸
+GET  /app/v1/users/{userIdx} # í”„ë¡œí•„ ì¡°íšŒ
+PATCH /app/v1/users/{userIdx} # í”„ë¡œí•„ ìˆ˜ì •
 ```
 
-### 3. °Ç°­ ±â·Ï (Health Records)
+### 2. ì•½ë¬¼ ê´€ë¦¬ (Medicine Management)
 
-#### ¾à¹° º¹¿ë ±â·Ï
-- ÀÏº°, ½Ã°£´ëº° º¹¿ë ¿©ºÎ ±â·Ï
-- º¹¿ë·®, º¹¿ë ½Ã°£, ¸Þ¸ð °ü¸®
-- ÀüÃ¼ ¾à¹° ÀÏ°ý º¹¿ë ±â·Ï ±â´É
+#### ì•½ë¬¼ ë“±ë¡ í”„ë¡œì„¸ìŠ¤
+ì±„íŒ… ê¸°ë°˜ì˜ ë‹¨ê³„ë³„ ì•½ë¬¼ ë“±ë¡ ì‹œìŠ¤í…œ:
+1. **ì•½ë¬¼ëª… ìž…ë ¥** â†’ 2. **ë³µìš© ì£¼ê¸° ì„¤ì •** â†’ 3. **ì‹œìž‘ì¼ ì„¤ì •** â†’ 4. **ì¢…ë£Œì¼ ì„¤ì •** â†’ 5. **ë³µìš© ì‹œê°„ ì„¤ì •**
 
-#### ¼ö¸é ±â·Ï
-- ¼ö¸é ½Ã°£, ±â»ó ½Ã°£ ±â·Ï
-- ¼ö¸é Ç°Áú ¹× ¼ö¸é °ü·Ã ¸Þ¸ð
-- ¼ö¸é ÆÐÅÏ ºÐ¼®
+#### ë³µìš© ì¼ì • ê´€ë¦¬
+- ìš”ì¼ë³„ ë³µìš© ì„¤ì • (ì›”~ì¼)
+- ì‹œê°„ëŒ€ë³„ ë³µìš© ì„¤ì • (ìƒˆë²½, ì•„ì¹¨, ì ì‹¬, ì €ë…, ìžê¸°ì „)
+- ë³µìš©ëŸ‰ ë° ë©”ëª¨ ê´€ë¦¬
 
-#### ¿îµ¿ ±â·Ï
-- ¿îµ¿ ½ÃÀÛ ½Ã°£, ÃÑ ¿îµ¿ ½Ã°£
-- ¿îµ¿ °­µµ ¹× ¿îµ¿ Á¾·ù
-- ¿îµ¿ °ü·Ã ¸Þ¸ð
-
-#### ÇÞºû ³ëÃâ ±â·Ï
-- ¾ß¿Ü È°µ¿ ½ÃÀÛ ½Ã°£, ÃÑ È°µ¿ ½Ã°£
-- ÇÞºû ³ëÃâ °ü·Ã ¸Þ¸ð
-
-#### Áõ»ó ±â·Ï
-- Ã¼°èÀûÀÎ Áõ»ó Ã¼Å©¸®½ºÆ®
-- ºÎÀÛ¿ë ¹× Áõ»ó ±â·Ï
-- Áõ»ó ±×·ìº° ºÐ·ù
-
-**API ¿£µåÆ÷ÀÎÆ®:**
+**API ì—”ë“œí¬ì¸íŠ¸:**
 ```
-# ¾à¹° º¹¿ë ±â·Ï
+GET  /app/v1/users/medicine/input    # ì•½ë¬¼ ë“±ë¡ ì‹œìž‘
+GET  /app/v1/users/medicine/name     # ì•½ë¬¼ëª… ìž…ë ¥
+GET  /app/v1/users/medicine/cycle    # ë³µìš© ì£¼ê¸° ì„¤ì •
+GET  /app/v1/users/medicine/start    # ì‹œìž‘ì¼ ì„¤ì •
+GET  /app/v1/users/medicine/end      # ì¢…ë£Œì¼ ì„¤ì •
+GET  /app/v1/users/medicine/time     # ë³µìš© ì‹œê°„ ì„¤ì •
+POST /app/v1/users/medicine          # ì•½ë¬¼ ë“±ë¡
+GET  /app/v1/users/medicine          # ì•½ë¬¼ ëª©ë¡ ì¡°íšŒ
+PUT  /app/v1/users/medicine/{medicineIdx} # ì•½ë¬¼ ìˆ˜ì •
+DELETE /app/v1/users/medicine/{medicineIdx} # ì•½ë¬¼ ì‚­ì œ
+```
+
+### 3. ê±´ê°• ê¸°ë¡ (Health Records)
+
+#### ì•½ë¬¼ ë³µìš© ê¸°ë¡
+- ì¼ë³„, ì‹œê°„ëŒ€ë³„ ë³µìš© ì—¬ë¶€ ê¸°ë¡
+- ë³µìš©ëŸ‰, ë³µìš© ì‹œê°„, ë©”ëª¨ ê´€ë¦¬
+- ì „ì²´ ì•½ë¬¼ ì¼ê´„ ë³µìš© ê¸°ë¡ ê¸°ëŠ¥
+
+#### ìˆ˜ë©´ ê¸°ë¡
+- ìˆ˜ë©´ ì‹œê°„, ê¸°ìƒ ì‹œê°„ ê¸°ë¡
+- ìˆ˜ë©´ í’ˆì§ˆ ë° ìˆ˜ë©´ ê´€ë ¨ ë©”ëª¨
+- ìˆ˜ë©´ íŒ¨í„´ ë¶„ì„
+
+#### ìš´ë™ ê¸°ë¡
+- ìš´ë™ ì‹œìž‘ ì‹œê°„, ì´ ìš´ë™ ì‹œê°„
+- ìš´ë™ ê°•ë„ ë° ìš´ë™ ì¢…ë¥˜
+- ìš´ë™ ê´€ë ¨ ë©”ëª¨
+
+#### í–‡ë¹› ë…¸ì¶œ ê¸°ë¡
+- ì•¼ì™¸ í™œë™ ì‹œìž‘ ì‹œê°„, ì´ í™œë™ ì‹œê°„
+- í–‡ë¹› ë…¸ì¶œ ê´€ë ¨ ë©”ëª¨
+
+#### ì¦ìƒ ê¸°ë¡
+- ì²´ê³„ì ì¸ ì¦ìƒ ì²´í¬ë¦¬ìŠ¤íŠ¸
+- ë¶€ìž‘ìš© ë° ì¦ìƒ ê¸°ë¡
+- ì¦ìƒ ê·¸ë£¹ë³„ ë¶„ë¥˜
+
+**API ì—”ë“œí¬ì¸íŠ¸:**
+```
+# ì•½ë¬¼ ë³µìš© ê¸°ë¡
 GET  /app/v1/users/record/medicine
 POST /app/v1/users/record/medicine/all
 PATCH /app/v1/users/record/medicine/all
 
-# ¼ö¸é ±â·Ï
+# ìˆ˜ë©´ ê¸°ë¡
 GET  /app/v1/users/record/sleep
 POST /app/v1/users/record/sleep
 PATCH /app/v1/users/record/sleep
 
-# ¿îµ¿ ±â·Ï
+# ìš´ë™ ê¸°ë¡
 GET  /app/v1/users/record/exercise
 POST /app/v1/users/record/exercise
 PATCH /app/v1/users/record/exercise
 
-# ÇÞºû ±â·Ï
+# í–‡ë¹› ê¸°ë¡
 GET  /app/v1/users/record/sun
 POST /app/v1/users/record/sun
 PATCH /app/v1/users/record/sun
 
-# Áõ»ó ±â·Ï
+# ì¦ìƒ ê¸°ë¡
 GET  /app/v1/users/record/symptom
 POST /app/v1/users/record/symptom
 PATCH /app/v1/users/record/symptom
 ```
 
-### 4. ¾Ë¸² ½Ã½ºÅÛ (Notification System)
+### 4. ì•Œë¦¼ ì‹œìŠ¤í…œ (Notification System)
 
-#### Çª½Ã ¾Ë¸²
-- **Firebase Cloud Messaging** ¿¬µ¿
-- ¾à¹° º¹¿ë ½Ã°£ ¾Ë¸²
-- ½ºÄÉÁÙ¸µ ±â¹Ý ÀÚµ¿ ¾Ë¸² Àü¼Û
-- »ç¿ëÀÚº° ¾Ë¸² ¼³Á¤ °ü¸®
+#### í‘¸ì‹œ ì•Œë¦¼
+- **Firebase Cloud Messaging** ì—°ë™
+- ì•½ë¬¼ ë³µìš© ì‹œê°„ ì•Œë¦¼
+- ìŠ¤ì¼€ì¤„ë§ ê¸°ë°˜ ìžë™ ì•Œë¦¼ ì „ì†¡
+- ì‚¬ìš©ìžë³„ ì•Œë¦¼ ì„¤ì • ê´€ë¦¬
 
-#### ¾Ë¸² ¼³Á¤
-- ¼­ºñ½º ¾Ë¸², ¾à¹° ¾Ë¸², ÀÌº¥Æ® ¾Ë¸², ¸¶ÄÉÆÃ ¾Ë¸² ºÐ¸®
-- ½Ã°£´ëº° ¾à¹° ¾Ë¸² ¼³Á¤
-- µð¹ÙÀÌ½º ÅäÅ« °ü¸®
+#### ì•Œë¦¼ ì„¤ì •
+- ì„œë¹„ìŠ¤ ì•Œë¦¼, ì•½ë¬¼ ì•Œë¦¼, ì´ë²¤íŠ¸ ì•Œë¦¼, ë§ˆì¼€íŒ… ì•Œë¦¼ ë¶„ë¦¬
+- ì‹œê°„ëŒ€ë³„ ì•½ë¬¼ ì•Œë¦¼ ì„¤ì •
+- ë””ë°”ì´ìŠ¤ í† í° ê´€ë¦¬
 
-**API ¿£µåÆ÷ÀÎÆ®:**
+**API ì—”ë“œí¬ì¸íŠ¸:**
 ```
-GET  /app/v1/users/notification          # ¾Ë¸² ¼³Á¤ Á¶È¸
-PATCH /app/v1/users/notification         # ¾Ë¸² ¼³Á¤ ¼öÁ¤
-GET  /app/v1/users/notification/medicine # ¾à¹° ¾Ë¸² ¼³Á¤ Á¶È¸
-PATCH /app/v1/users/notification/medicine # ¾à¹° ¾Ë¸² ¼³Á¤ ¼öÁ¤
-PATCH /app/v1/users/notification/token   # µð¹ÙÀÌ½º ÅäÅ« ¾÷µ¥ÀÌÆ®
-```
-
-### 5. µ¥ÀÌÅÍ °ü¸® (Data Management)
-
-#### °øÁö»çÇ×
-- ¾Û ³» °øÁö»çÇ× °ü¸®
-- °øÁö»çÇ× ¸ñ·Ï ¹× »ó¼¼ ³»¿ë Á¶È¸
-
-#### ¹öÀü °ü¸®
-- ¾Û ¹öÀü Á¤º¸ °ü¸®
-- ÃÖ½Å ¹öÀü Á¤º¸ Á¶È¸
-
-**API ¿£µåÆ÷ÀÎÆ®:**
-```
-GET /app/v1/data/noticeboard           # °øÁö»çÇ× ¸ñ·Ï
-GET /app/v1/data/noticeboard/{idx}     # °øÁö»çÇ× »ó¼¼
-GET /app/v1/data/version               # ¾Û ¹öÀü Á¤º¸
+GET  /app/v1/users/notification          # ì•Œë¦¼ ì„¤ì • ì¡°íšŒ
+PATCH /app/v1/users/notification         # ì•Œë¦¼ ì„¤ì • ìˆ˜ì •
+GET  /app/v1/users/notification/medicine # ì•½ë¬¼ ì•Œë¦¼ ì„¤ì • ì¡°íšŒ
+PATCH /app/v1/users/notification/medicine # ì•½ë¬¼ ì•Œë¦¼ ì„¤ì • ìˆ˜ì •
+PATCH /app/v1/users/notification/token   # ë””ë°”ì´ìŠ¤ í† í° ì—…ë°ì´íŠ¸
 ```
 
-## ? º¸¾È ¹× ÀÎÁõ
+### 5. ë°ì´í„° ê´€ë¦¬ (Data Management)
 
-### JWT ±â¹Ý ÀÎÁõ
-- **ÅäÅ« »ý¼º**: ·Î±×ÀÎ ½Ã userIdx¸¦ Æ÷ÇÔÇÑ JWT ÅäÅ« »ý¼º
-- **ÅäÅ« °ËÁõ**: °¢ API ¿äÃ» ½Ã X-ACCESS-TOKEN Çì´õ¿¡¼­ JWT ÃßÃâ ¹× °ËÁõ
-- **ÅäÅ« ¸¸·á**: 1³â À¯È¿ÇÑ ÅäÅ« (°³¼± ÇÊ¿ä: 30ºÐ-1½Ã°£ ±ÇÀå)
+#### ê³µì§€ì‚¬í•­
+- ì•± ë‚´ ê³µì§€ì‚¬í•­ ê´€ë¦¬
+- ê³µì§€ì‚¬í•­ ëª©ë¡ ë° ìƒì„¸ ë‚´ìš© ì¡°íšŒ
+
+#### ë²„ì „ ê´€ë¦¬
+- ì•± ë²„ì „ ì •ë³´ ê´€ë¦¬
+- ìµœì‹  ë²„ì „ ì •ë³´ ì¡°íšŒ
+
+**API ì—”ë“œí¬ì¸íŠ¸:**
+```
+GET /app/v1/data/noticeboard           # ê³µì§€ì‚¬í•­ ëª©ë¡
+GET /app/v1/data/noticeboard/{idx}     # ê³µì§€ì‚¬í•­ ìƒì„¸
+GET /app/v1/data/version               # ì•± ë²„ì „ ì •ë³´
+```
+
+## ðŸ” ë³´ì•ˆ ë° ì¸ì¦
+
+### JWT ê¸°ë°˜ ì¸ì¦
+- **í† í° ìƒì„±**: ë¡œê·¸ì¸ ì‹œ userIdxë¥¼ í¬í•¨í•œ JWT í† í° ìƒì„±
+- **í† í° ê²€ì¦**: ê° API ìš”ì²­ ì‹œ X-ACCESS-TOKEN í—¤ë”ì—ì„œ JWT ì¶”ì¶œ ë° ê²€ì¦
+- **í† í° ë§Œë£Œ**: 1ë…„ ìœ íš¨í•œ í† í° (ê°œì„  í•„ìš”: 30ë¶„-1ì‹œê°„ ê¶Œìž¥)
 
 ### Spring Security
-- ±âº»ÀûÀÎ Spring Security ¼³Á¤
-- CSRF º¸È£ ºñÈ°¼ºÈ­
-- ¼öµ¿ JWT ÀÎÁõ ±¸Çö
+- ê¸°ë³¸ì ì¸ Spring Security ì„¤ì •
+- CSRF ë³´í˜¸ ë¹„í™œì„±í™”
+- ìˆ˜ë™ JWT ì¸ì¦ êµ¬í˜„
 
-### ºñ¹Ð¹øÈ£ ¾ÏÈ£È­
-- AES128 ¾Ë°í¸®ÁòÀ» »ç¿ëÇÑ ºñ¹Ð¹øÈ£ ¾ÏÈ£È­
-- ÀÌ¸ÞÀÏ ÀÎÁõ ÄÚµå ¾ÏÈ£È­
+### ë¹„ë°€ë²ˆí˜¸ ì•”í˜¸í™”
+- AES128 ì•Œê³ ë¦¬ì¦˜ì„ ì‚¬ìš©í•œ ë¹„ë°€ë²ˆí˜¸ ì•”í˜¸í™”
+- ì´ë©”ì¼ ì¸ì¦ ì½”ë“œ ì•”í˜¸í™”
 
-## ? µ¥ÀÌÅÍº£ÀÌ½º ¼³°è
+## ðŸ“Š ë°ì´í„°ë² ì´ìŠ¤ ì„¤ê³„
 
-### ÁÖ¿ä Å×ÀÌºí ±¸Á¶
-- **Users**: »ç¿ëÀÚ ±âº» Á¤º¸
-- **Authentication**: ÀÌ¸ÞÀÏ ÀÎÁõ Á¤º¸
-- **Medicine**: ¾à¹° Á¤º¸
-- **MedicineTime**: ¾à¹° º¹¿ë ½Ã°£ ¼³Á¤
-- **MedicineRecord**: ¾à¹° º¹¿ë ±â·Ï
-- **SleepRecord**: ¼ö¸é ±â·Ï
-- **ExerciseRecord**: ¿îµ¿ ±â·Ï
-- **SunRecord**: ÇÞºû ³ëÃâ ±â·Ï
-- **SymptomRecord**: Áõ»ó ±â·Ï
-- **Notification**: ¾Ë¸² ¼³Á¤
-- **DeviceToken**: µð¹ÙÀÌ½º ÅäÅ«
+### ì£¼ìš” í…Œì´ë¸” êµ¬ì¡°
+- **Users**: ì‚¬ìš©ìž ê¸°ë³¸ ì •ë³´
+- **Authentication**: ì´ë©”ì¼ ì¸ì¦ ì •ë³´
+- **Medicine**: ì•½ë¬¼ ì •ë³´
+- **MedicineTime**: ì•½ë¬¼ ë³µìš© ì‹œê°„ ì„¤ì •
+- **MedicineRecord**: ì•½ë¬¼ ë³µìš© ê¸°ë¡
+- **SleepRecord**: ìˆ˜ë©´ ê¸°ë¡
+- **ExerciseRecord**: ìš´ë™ ê¸°ë¡
+- **SunRecord**: í–‡ë¹› ë…¸ì¶œ ê¸°ë¡
+- **SymptomRecord**: ì¦ìƒ ê¸°ë¡
+- **Notification**: ì•Œë¦¼ ì„¤ì •
+- **DeviceToken**: ë””ë°”ì´ìŠ¤ í† í°
 
-## ? ¹èÆ÷ ¹× ¿î¿µ
+## ðŸš€ ë°°í¬ ë° ìš´ì˜
 
-### AWS ÀÎÇÁ¶ó ±¸¼º
-1. **EC2 ÀÎ½ºÅÏ½º**: Spring Boot ¾ÖÇÃ¸®ÄÉÀÌ¼Ç È£½ºÆÃ
-2. **RDS MySQL**: µ¥ÀÌÅÍº£ÀÌ½º ¼­¹ö
-3. **Nginx**: ¸®¹ö½º ÇÁ·Ï½Ã ¹× ·Îµå ¹ë·±¼­
-4. **Security Groups**: ³×Æ®¿öÅ© º¸¾È ¼³Á¤
+### AWS ì¸í”„ë¼ êµ¬ì„±
+1. **EC2 ì¸ìŠ¤í„´ìŠ¤**: Spring Boot ì• í”Œë¦¬ì¼€ì´ì…˜ í˜¸ìŠ¤íŒ…
+2. **RDS MySQL**: ë°ì´í„°ë² ì´ìŠ¤ ì„œë²„
+3. **Nginx**: ë¦¬ë²„ìŠ¤ í”„ë¡ì‹œ ë° ë¡œë“œ ë°¸ëŸ°ì„œ
+4. **Security Groups**: ë„¤íŠ¸ì›Œí¬ ë³´ì•ˆ ì„¤ì •
 
-### ¹èÆ÷ ÇÁ·Î¼¼½º
-1. Spring Boot ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ºôµå
-2. EC2 ÀÎ½ºÅÏ½º¿¡ JAR ÆÄÀÏ ¾÷·Îµå
-3. Nginx ¼³Á¤ ¾÷µ¥ÀÌÆ®
-4. ¾ÖÇÃ¸®ÄÉÀÌ¼Ç Àç½ÃÀÛ
+### ë°°í¬ í”„ë¡œì„¸ìŠ¤
+1. Spring Boot ì• í”Œë¦¬ì¼€ì´ì…˜ ë¹Œë“œ
+2. EC2 ì¸ìŠ¤í„´ìŠ¤ì— JAR íŒŒì¼ ì—…ë¡œë“œ
+3. Nginx ì„¤ì • ì—…ë°ì´íŠ¸
+4. ì• í”Œë¦¬ì¼€ì´ì…˜ ìž¬ì‹œìž‘
 
-### ½ÇÁ¦ ±¸ÇöÇÑ ÇÙ½É ±â´É
-- **JWT ±â¹Ý ÀÎÁõ ½Ã½ºÅÛ**: »ç¿ëÀÚ ÀÎÁõ ¹× ±ÇÇÑ °ü¸®
-- **Firebase Çª½Ã ¾Ë¸²**: Á¤½Ã ¾à¹° º¹¿ë ¾Ë¸² ÀÚµ¿ Àü¼Û
-- **ÀÌ¸ÞÀÏ ÀÎÁõ ½Ã½ºÅÛ**: È¸¿ø°¡ÀÔ ½Ã ÀÌ¸ÞÀÏ ÀÎÁõ ÄÚµå ¹ß¼Û
-- **Ã¤ÆÃ ±â¹Ý UX**: ´Ü°èº° ¾à¹° µî·Ï ÇÁ·Î¼¼½º
-- **½ºÄÉÁÙ¸µ ½Ã½ºÅÛ**: ¸ÅºÐ¸¶´Ù ¾à¹° º¹¿ë ½Ã°£ Ã¼Å© ¹× ¾Ë¸²
-- **RESTful API**: Ã¼°èÀûÀÎ API ¼³°è ¹× ±¸Çö
+### ì‹¤ì œ êµ¬í˜„í•œ í•µì‹¬ ê¸°ëŠ¥
+- **JWT ê¸°ë°˜ ì¸ì¦ ì‹œìŠ¤í…œ**: ì‚¬ìš©ìž ì¸ì¦ ë° ê¶Œí•œ ê´€ë¦¬
+- **Firebase í‘¸ì‹œ ì•Œë¦¼**: ì •ì‹œ ì•½ë¬¼ ë³µìš© ì•Œë¦¼ ìžë™ ì „ì†¡
+- **ì´ë©”ì¼ ì¸ì¦ ì‹œìŠ¤í…œ**: íšŒì›ê°€ìž… ì‹œ ì´ë©”ì¼ ì¸ì¦ ì½”ë“œ ë°œì†¡
+- **ì±„íŒ… ê¸°ë°˜ UX**: ë‹¨ê³„ë³„ ì•½ë¬¼ ë“±ë¡ í”„ë¡œì„¸ìŠ¤
+- **ìŠ¤ì¼€ì¤„ë§ ì‹œìŠ¤í…œ**: ë§¤ë¶„ë§ˆë‹¤ ì•½ë¬¼ ë³µìš© ì‹œê°„ ì²´í¬ ë° ì•Œë¦¼
+- **RESTful API**: ì²´ê³„ì ì¸ API ì„¤ê³„ ë° êµ¬í˜„
 
-## ? °³¹ß È¯°æ ¼³Á¤
+## ðŸ”§ ê°œë°œ í™˜ê²½ ì„¤ì •
 
-### ÇÊ¼ö ¿ä±¸»çÇ×
-- Java 8 ÀÌ»ó
-- Gradle 6.x ÀÌ»ó
-- MySQL 8.0 ÀÌ»ó
+### í•„ìˆ˜ ìš”êµ¬ì‚¬í•­
+- Java 8 ì´ìƒ
+- Gradle 6.x ì´ìƒ
+- MySQL 8.0 ì´ìƒ
 
-### ·ÎÄÃ °³¹ß È¯°æ ¼³Á¤
+### ë¡œì»¬ ê°œë°œ í™˜ê²½ ì„¤ì •
 ```bash
-# ÇÁ·ÎÁ§Æ® Å¬·Ð
+# í”„ë¡œì íŠ¸ í´ë¡ 
 git clone [repository-url]
 cd Hodl_Server
 
-# ÀÇÁ¸¼º ¼³Ä¡
+# ì˜ì¡´ì„± ì„¤ì¹˜
 ./gradlew build
 
-# ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÇÇà
+# ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹¤í–‰
 ./gradlew bootRun
 ```
 
-### È¯°æ º¯¼ö ¼³Á¤
+### í™˜ê²½ ë³€ìˆ˜ ì„¤ì •
 ```properties
 # application.yml
 spring:
@@ -400,83 +400,83 @@ spring:
     username: your_email@gmail.com
     password: your_app_password
 
-# Firebase ¼³Á¤
+# Firebase ì„¤ì •
 firebase:
   service-account: path/to/serviceAccountKey.json
 ```
 
-## ? Å×½ºÆ®
+## ðŸ§ª í…ŒìŠ¤íŠ¸
 
-### API Å×½ºÆ®
-- PostmanÀ» »ç¿ëÇÑ API ¿£µåÆ÷ÀÎÆ® Å×½ºÆ®
-- JWT ÅäÅ« ±â¹Ý ÀÎÁõ Å×½ºÆ®
-- °¢ ±â´Éº° ÅëÇÕ Å×½ºÆ®
+### API í…ŒìŠ¤íŠ¸
+- Postmanì„ ì‚¬ìš©í•œ API ì—”ë“œí¬ì¸íŠ¸ í…ŒìŠ¤íŠ¸
+- JWT í† í° ê¸°ë°˜ ì¸ì¦ í…ŒìŠ¤íŠ¸
+- ê° ê¸°ëŠ¥ë³„ í†µí•© í…ŒìŠ¤íŠ¸
 
-### µ¥ÀÌÅÍº£ÀÌ½º Å×½ºÆ®
-- Äõ¸® ¼º´É Å×½ºÆ®
-- µ¥ÀÌÅÍ ¹«°á¼º Å×½ºÆ®
+### ë°ì´í„°ë² ì´ìŠ¤ í…ŒìŠ¤íŠ¸
+- ì¿¼ë¦¬ ì„±ëŠ¥ í…ŒìŠ¤íŠ¸
+- ë°ì´í„° ë¬´ê²°ì„± í…ŒìŠ¤íŠ¸
 
-## ? API ¹®¼­
+## ðŸ“ API ë¬¸ì„œ
 
-### °øÅë ÀÀ´ä Çü½Ä
+### ê³µí†µ ì‘ë‹µ í˜•ì‹
 ```json
 {
   "isSuccess": true,
   "code": 1000,
-  "message": "¿äÃ»¿¡ ¼º°øÇÏ¿´½À´Ï´Ù.",
+  "message": "ìš”ì²­ì— ì„±ê³µí•˜ì˜€ìŠµë‹ˆë‹¤.",
   "result": {
-    // ½ÇÁ¦ µ¥ÀÌÅÍ
+    // ì‹¤ì œ ë°ì´í„°
   }
 }
 ```
 
-### ¿¡·¯ ÄÚµå Ã¼°è
-- **1000**: ¼º°ø
-- **2000**: ¿äÃ» ¿À·ù (ÀÔ·Â°ª °ËÁõ ½ÇÆÐ)
-- **3000**: ÀÀ´ä ¿À·ù (µ¥ÀÌÅÍ Á¶È¸ ½ÇÆÐ)
-- **4000**: ¼­¹ö ¿À·ù (µ¥ÀÌÅÍº£ÀÌ½º, ¼­¹ö ¿¬°á ½ÇÆÐ)
+### ì—ëŸ¬ ì½”ë“œ ì²´ê³„
+- **1000**: ì„±ê³µ
+- **2000**: ìš”ì²­ ì˜¤ë¥˜ (ìž…ë ¥ê°’ ê²€ì¦ ì‹¤íŒ¨)
+- **3000**: ì‘ë‹µ ì˜¤ë¥˜ (ë°ì´í„° ì¡°íšŒ ì‹¤íŒ¨)
+- **4000**: ì„œë²„ ì˜¤ë¥˜ (ë°ì´í„°ë² ì´ìŠ¤, ì„œë²„ ì—°ê²° ì‹¤íŒ¨)
 
-## ? ÇÁ·ÎÁ§Æ® °³¼± »çÇ× (°³¼±)
+## ðŸ”® í”„ë¡œì íŠ¸ ê°œì„  ì‚¬í•­ (ê°œì„ )
 
-### º¸¾È °­È­ (°³¼±)
-- JWT ÅäÅ« ¸¸·á ½Ã°£ ´ÜÃà (1³â ¡æ 30ºÐ-1½Ã°£)
-- ¸®ÇÁ·¹½Ã ÅäÅ« ±¸Çö
-- Spring Security JWT ÇÊÅÍ ±¸Çö
-- ¸Þ¼­µå ·¹º§ º¸¾È Àû¿ë
+### ë³´ì•ˆ ê°•í™” (ê°œì„ )
+- JWT í† í° ë§Œë£Œ ì‹œê°„ ë‹¨ì¶• (1ë…„ â†’ 30ë¶„-1ì‹œê°„)
+- ë¦¬í”„ë ˆì‹œ í† í° êµ¬í˜„
+- Spring Security JWT í•„í„° êµ¬í˜„
+- ë©”ì„œë“œ ë ˆë²¨ ë³´ì•ˆ ì ìš©
 
-### ¼º´É °³¼± (°³¼±)
-- Ä³½Ì Àü·« µµÀÔ (Redis)
-- µ¥ÀÌÅÍº£ÀÌ½º Äõ¸® ÃÖÀûÈ­
-- API ÀÀ´ä ½Ã°£ °³¼±
+### ì„±ëŠ¥ ê°œì„  (ê°œì„ )
+- ìºì‹± ì „ëžµ ë„ìž… (Redis)
+- ë°ì´í„°ë² ì´ìŠ¤ ì¿¼ë¦¬ ìµœì í™”
+- API ì‘ë‹µ ì‹œê°„ ê°œì„ 
 
-### ±â´É È®Àå (°³¼±)
-- ´ÙÁß µð¹ÙÀÌ½º ·Î±×ÀÎ °ü¸®
-- ÅäÅ« ºí·¢¸®½ºÆ® ±¸Çö
-- º¸¾È ·Î±× ±â·Ï
-- Rate Limiting ±¸Çö
+### ê¸°ëŠ¥ í™•ìž¥ (ê°œì„ )
+- ë‹¤ì¤‘ ë””ë°”ì´ìŠ¤ ë¡œê·¸ì¸ ê´€ë¦¬
+- í† í° ë¸”ëž™ë¦¬ìŠ¤íŠ¸ êµ¬í˜„
+- ë³´ì•ˆ ë¡œê·¸ ê¸°ë¡
+- Rate Limiting êµ¬í˜„
 
-## ??? °³¹ßÀÚ Á¤º¸
+## ðŸ‘¨â€ðŸ’» ê°œë°œìž ì •ë³´
 
-**¿ªÇÒ**: ¹é¿£µå °³¹ßÀÚ (Ç®½ºÅÃ ¹é¿£µå)
-**´ã´ç ¿µ¿ª**:
-- ¼­¹ö ±¸Ãà ¹× ÀÎÇÁ¶ó ¼³Á¤ (AWS EC2, RDS, Nginx)
-- µ¥ÀÌÅÍº£ÀÌ½º ¼³°è ¹× ±¸Ãà (MySQL)
-- Spring Boot ¹é¿£µå API °³¹ß
-- JWT ÀÎÁõ ½Ã½ºÅÛ ±¸Çö
-- Firebase Çª½Ã ¾Ë¸² ¿¬µ¿
-- ÀÌ¸ÞÀÏ ¼­ºñ½º ±¸Çö
+**ì—­í• **: ë°±ì—”ë“œ ê°œë°œìž (í’€ìŠ¤íƒ ë°±ì—”ë“œ)
+**ë‹´ë‹¹ ì˜ì—­**:
+- ì„œë²„ êµ¬ì¶• ë° ì¸í”„ë¼ ì„¤ì • (AWS EC2, RDS, Nginx)
+- ë°ì´í„°ë² ì´ìŠ¤ ì„¤ê³„ ë° êµ¬ì¶• (MySQL)
+- Spring Boot ë°±ì—”ë“œ API ê°œë°œ
+- JWT ì¸ì¦ ì‹œìŠ¤í…œ êµ¬í˜„
+- Firebase í‘¸ì‹œ ì•Œë¦¼ ì—°ë™
+- ì´ë©”ì¼ ì„œë¹„ìŠ¤ êµ¬í˜„
 
-**±â¼ú ½ºÅÃ**:
+**ê¸°ìˆ  ìŠ¤íƒ**:
 - Java, Spring Boot, MySQL, AWS, Nginx, JWT, Firebase
 
 ---
 
-## ? ÇÁ·ÎÁ§Æ® Á¤º¸
+## ðŸ“… í”„ë¡œì íŠ¸ ì •ë³´
 
-**ÇÁ·ÎÁ§Æ® ±â°£**: 2021.5 - 2021.8  
-**ÆÀ ±¸¼º**: Hodl (¼Ò¼Ó: [@Central-MakeUs](https://github.com/Central-MakeUs))  
+**í”„ë¡œì íŠ¸ ê¸°ê°„**: 2021.5 - 2021.8  
+**íŒ€ êµ¬ì„±**: Hodl (ì†Œì†: [@Central-MakeUs](https://github.com/Central-MakeUs))  
 **GitHub**: [@ucans/Hodl_Server](https://github.com/ucans/Hodl_Server)
 
 ---
 
-*ÀÌ ÇÁ·ÎÁ§Æ®´Â ´ëÇÐ±³ ÇÐºÎ °úÁ¤¿¡¼­ ÁøÇàÇÑ ÆÀ ÇÁ·ÎÁ§Æ®·Î, ½ÇÁ¦ ¼­ºñ½º °³¹ß °æÇèÀ» ÅëÇØ ¹é¿£µå °³¹ß ¿ª·®À» Çâ»ó½ÃÅ² ÇÁ·ÎÁ§Æ®ÀÔ´Ï´Ù.*
+*ì´ í”„ë¡œì íŠ¸ëŠ” ëŒ€í•™êµ í•™ë¶€ ê³¼ì •ì—ì„œ ì§„í–‰í•œ íŒ€ í”„ë¡œì íŠ¸ë¡œ, ì‹¤ì œ ì„œë¹„ìŠ¤ ê°œë°œ ê²½í—˜ì„ í†µí•´ ë°±ì—”ë“œ ê°œë°œ ì—­ëŸ‰ì„ í–¥ìƒì‹œí‚¨ í”„ë¡œì íŠ¸ìž…ë‹ˆë‹¤.*
